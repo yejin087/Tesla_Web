@@ -1,0 +1,65 @@
+form{
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_label{
+  color: #5c5d61;
+}
+
+.input_email{
+  color: #393c41;
+  background: #f5f5f5;
+  padding: 0px 20px;
+}
+
+.need_help_txt{
+  margin: 16px 0px 0px;
+}
+
+a{
+  color:#393C41;
+}
+
+.form_email{
+  display: grid;
+  grid-template-rows: none;
+}
+.to_pw_page{
+  background: #3D69E1;
+  color: white;
+  padding: 4px 24px;
+  margin: 8px 0;
+  vertical-align: middle;
+}
+
+.inlinebreak{
+    color: #5c5d61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 40px auto;
+    white-space: nowrap;
+}
+
+.inlinebreak::after, 
+.inlinebreak::before {
+  content: "";
+  display: inline-block;
+  width: 40%;
+  height: 1px;
+  margin: 0 8px;
+  background-color: #E2E4E4;
+}
+
+.secondbutton{
+  vertical-align: middle;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
